@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0-rc.2.20475.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.0-rc.2.20475.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopLine.Data\ShopLine.Data.csproj" />
+    <ProjectReference Include="..\ShopLine.DTO\ShopLine.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
