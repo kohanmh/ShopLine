@@ -20,4 +20,5 @@ namespace ShopLine.Domain.Entity
         [Column("Cst1_Customer_BirthDay")]
         public DateTime BirthDay { get; set; }
     }
+    public class CustomerEntityMap: EntityTypeConfiguration
 }
